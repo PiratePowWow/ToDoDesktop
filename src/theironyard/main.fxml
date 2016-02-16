@@ -15,6 +15,7 @@
             <TextField fx:id="text" HBox.hgrow="ALWAYS" />
             <Button mnemonicParsing="false" onAction="#addItem" text="ADD" />
             <Button mnemonicParsing="false" onAction="#removeItem" text="REMOVE" />
+            <Button mnemonicParsing="false" onAction="#toggleItem" text="TOGGLE" />
          </children>
       </HBox>
       <ListView fx:id="list" prefHeight="357.0" prefWidth="600.0" VBox.vgrow="ALWAYS" />
